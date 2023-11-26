@@ -1,8 +1,11 @@
-# React + Vite
+file manafer helps create folders and navigate through them. URL path will not change after refreshing page. Browser fwd and bwd buttons also working properly. 
+app built with lates versions of node and vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+local set up:
 
-Currently, two official plugins are available:
+download app folder, open folder via your code editor, then use terminal command 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+'npm install' and 'npm run dev'
+
+App utilizes dropbox api for access public folder, redux slice for state management and ant design for styling
+
