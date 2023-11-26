@@ -12,7 +12,7 @@ const { Header, Content } = Layout;
 const App = () => {
   return (
     <Provider store={store}>
-      <Router>
+      <Router >
         <Layout style={{ minHeight: '100vh' }}>
           <Space direction="vertical">
             <Header>
