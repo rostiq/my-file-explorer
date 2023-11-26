@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const DROPBOX_API_URL = 'https://api.dropboxapi.com/2';
-const ACCESS_TOKEN = 'sl.Bqn-Kki2JxKh4vTYrM6NgR9yv9pgLGRR8rf63txp4aFy3DtV1wvaD160HSMBh7UF6NnOwyR4ael5D8XNeM8GeaL7ICQ63LlFRPlAQ105jFU6y2lw3L4DXqE7CnY9KJGlsFypPutixBKf';
+const ACCESS_TOKEN = 'sl.BqkG8Fx4OnMjVG8p9VigD5wUU96IbxHKjLzNC4DnDlmhsbGHTY_-678KbR0TD3DMAKX2BY-GmmOFJt9IGdM7vJykUXGaIzPPry4CqBh0glg8CvVupNUE-A0uR_eX6gqdoq8LKTWDeWqF';
 
 const headers = {
   'Content-Type': 'application/json',
