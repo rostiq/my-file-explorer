@@ -5,8 +5,7 @@ local set up:
 
 download app folder, open folder via your code editor, then use terminal command 
 
-npm install
-npm run dev
+'npm install' and 'npm run dev'
 
 App utilize dropbox api for access public folder, redux slice for state management and ant design for styling
 
