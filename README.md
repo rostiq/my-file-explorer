@@ -19,3 +19,4 @@ start using app.
 
 App utilizes dropbox api for access public folder, redux slice for state management and ant design for styling
 
+<img width="1440" alt="Знімок екрана 2023-11-27 о 11 06 47" src="https://github.com/rostiq/my-file-explorer/assets/106112250/6e99c8d5-6855-402d-bce2-8c8e0cc3f1bd">
