@@ -9,13 +9,11 @@ download app folder, open folder via your code editor, then use terminal command
 
 'npm install'
 
-if you can't authorize dropbox api,  connect with me with +380936154023 or t.me/rostiknatkha or rostiknatkha@gmail.com 
-
-enter terminal and type
-
 'npm run dev'
 
 start using app.
+
+if you can't authorize dropbox api,  connect with me with +380936154023 or t.me/rostiknatkha or rostiknatkha@gmail.com 
 
 App utilizes dropbox api for access public folder, redux slice for state management and ant design for styling
 
