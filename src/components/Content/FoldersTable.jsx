@@ -53,7 +53,7 @@ const FoldersTable = () => {
         {loading ? (
           <Spin size="large" style={{ width: '100%' }} />
         ) : error ? (
-          <Result status="error" title="No such file or directory" subTitle={error} />
+          <Result status="error" title="Something went wrong" subTitle={error} />
         ) : (
           <Table
             dataSource={folders}

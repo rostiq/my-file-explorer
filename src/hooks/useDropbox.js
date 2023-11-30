@@ -5,14 +5,14 @@ import dropboxService from '../services/dropboxService';
 const useDropbox = () => {
   const dispatch = useDispatch();
 
-  const handleUpdateError = (error) => dispatch(updateError(error?.response?.data || 'An error occurred'))
+  const handleUpdateError = (error) => dispatch(updateError(error.replace(/[_/]/g, ' ')  || 'Please contact support'));
   const fetchData = async (path = '') => {
     dispatch(updateRequest());
     try {
       const response = await dropboxService.listFiles(path);
       dispatch(updateFolders(response?.entries || []));
     } catch (error) {
-      handleUpdateError(error)
+      handleUpdateError(error.error_summary)
     }
   };
 
@@ -22,7 +22,7 @@ const useDropbox = () => {
       await dropboxService.createFolder(fullPath);
       fetchData(path);
     } catch (error) {
-      handleUpdateError(error)
+      handleUpdateError(error.error_summary)
     }
   };
 
