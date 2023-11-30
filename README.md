@@ -1,3 +1,5 @@
+UPDATED 30.11.23 : new access token flow.
+
 file manafer helps create folders and navigate through them. URL path will not change after refreshing page. Browser fwd and bwd buttons also working properly. 
 app built with lates versions of node and vite.
 
@@ -7,9 +9,7 @@ download app folder, open folder via your code editor, then use terminal command
 
 'npm install'
 
-to authorize dropbox api,  connect with me with +380936154023 or t.me/rostiknatkha or rostiknatkha@gmail.com to get new acces token
-
-replace token in src/services/dropboxService.js
+if you can't authorize dropbox api,  connect with me with +380936154023 or t.me/rostiknatkha or rostiknatkha@gmail.com 
 
 enter terminal and type
 
